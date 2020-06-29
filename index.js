@@ -1,4 +1,4 @@
-const process = require('process')
+// const process = require('process')
 const path = require('path')
 const express = require('express')
 const app = express()
@@ -22,7 +22,7 @@ const port = process.env.PORT || 3000;
 //     console.log('connected as id ' + connection.threadId);
 // });
 
-app.get('/', (req, res) =>{
+app.get('/ram', (req, res) =>{
     // connection.query('SELECT * FROM tab1', function (error, results, fields) {
     //     if (error) throw error;
     //     else{
